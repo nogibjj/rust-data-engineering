@@ -1,6 +1,8 @@
 # Rust Data Engineering
 
-Projects for Rust Data Engineering Coursera course
+Projects for Rust Data Engineering Coursera course.
+Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](https://nogibjj.github.io/rust-data-engineering/)
+
 
 ## References
 

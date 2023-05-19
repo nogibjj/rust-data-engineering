@@ -1,5 +1,11 @@
 install:
 	cargo install mdbook
+	#install node
+	#curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
+	#sudo apt-get install -y nodejs
+	#npm install -g @githubnext/github-copilot-cli
+	
+	echo 'eval "$(github-copilot-cli alias -- "$0")"' >> ~/.bashrc
 
 build:
 	mdbook build data-eng-rust-tutorial
@@ -37,9 +43,9 @@ deploy:
 	# otherwise add it: git worktree add /tmp/book gh-pages
 	if [ -d /tmp/book ]; then git worktree remove --force /tmp/book; fi
 	git worktree add -f /tmp/book gh-pages
-	mdbook build small-rust-tutorial
+	mdbook build data-eng-rust-tutorial
 	rm -rf /tmp/book/*
-	cp -rp small-rust-tutorial/book/* /tmp/book/
+	cp -rp data-eng-rust-tutorial/book/* /tmp/book/
 	cd /tmp/book && \
 		git add -A && \
 		git commit -m "deployed on $(shell date) by ${USER}" && \
