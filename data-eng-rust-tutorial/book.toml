@@ -1,0 +1,6 @@
+[book]
+authors = ["Noah Gift"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust Data Engineering"
