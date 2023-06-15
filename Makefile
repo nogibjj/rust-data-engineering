@@ -14,13 +14,20 @@ serve:
 	mdbook serve -p 8000 -n 127.0.0.1 data-eng-rust-tutorial 
 
 format:
-	cargo fmt --quiet
+	@echo "Formatting all projects with cargo"
+	./format.sh
 
 lint:
-	cargo clippy --quiet
+	@echo "Linting all projects with cargo"
+	@rustup component add clippy 2> /dev/null
+	./lint.sh
 
 test:
-	cargo test --quiet
+	@echo "Testing all projects with cargo"
+	./test.sh
+
+check-gpu-linux:
+	sudo lshw -C display
 
 linkcheck:
 	mdbook test -L data-eng-rust-tutorial
