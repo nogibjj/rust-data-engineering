@@ -1,30 +1,23 @@
 fn main() {
+    println!("Common Rust Collections:");
+
     // Sequences
-    println!("Sequences:");
-    println!("\t* Vec");
-    println!("\t* Array");
-    println!("\t* Slice");
-    
-    // String types
-    println!("\nString Types:");
-    println!("\t* String");
-    println!("\t* str");
-    
+    println!("\n\tSequences:");
+    println!("\t\tVec: https://doc.rust-lang.org/std/vec/struct.Vec.html");
+    println!("\t\tVecDeque: https://doc.rust-lang.org/std/collections/struct.VecDeque.html");
+    println!("\t\tLinkedList: https://doc.rust-lang.org/std/collections/struct.LinkedList.html");
+
     // Maps
-    println!("\nMaps:");
-    println!("\t* HashMap");
-    println!("\t* BTreeMap");
-    
+    println!("\n\tMaps:");
+    println!("\t\tHashMap: https://doc.rust-lang.org/std/collections/struct.HashMap.html");
+    println!("\t\tBTreeMap: https://doc.rust-lang.org/std/collections/struct.BTreeMap.html");
+
     // Sets
-    println!("\nSets:");
-    println!("\t* HashSet");
-    println!("\t* BTreeSet");
-    
-    // Stack and Queue
-    println!("\nStack and Queue:");
-    println!("\t* VecDeque");
-    
-    // Binary Heap
-    println!("\nBinary Heap:");
-    println!("\t* BinaryHeap");
+    println!("\n\tSets:");
+    println!("\t\tHashSet: https://doc.rust-lang.org/std/collections/struct.HashSet.html");
+    println!("\t\tBTreeSet: https://doc.rust-lang.org/std/collections/struct.BTreeSet.html");
+
+    // Misc
+    println!("\n\tMisc:");
+    println!("\t\tBinaryHeap: https://doc.rust-lang.org/std/collections/struct.BinaryHeap.html");
 }

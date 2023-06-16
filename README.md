@@ -26,11 +26,12 @@ all: format lint test run
 
 ## Labs (in sequential Order)
 
-1. Print Rust data structures
+1. Print Rust data structures:  `cd print-data-structs && cargo run`
 
 
 ## References
 
+* [Rust Collections](https://doc.rust-lang.org/std/collections/index.html)
 * [GitHub Copilot CLI](https://www.npmjs.com/package/@githubnext/github-copilot-cli)
 * [Rust Fundamentals](https://github.com/alfredodeza/rust-fundamentals)
 * [Rust Tutorial](https://nogibjj.github.io/rust-tutorial/)
