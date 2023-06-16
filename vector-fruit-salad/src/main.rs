@@ -1,3 +1,9 @@
+/*
+This program creates a fruit salad by scrambling (shuffling) a list of fruit.
+A vector is a growable array. It can grow or shrink in size and is one of the most
+useful data structures in Rust. A vector is represented using the Vec<T> type.
+*/
+
 use rand::seq::SliceRandom; // rand is a random number generation library in Rust
 use rand::thread_rng;
 

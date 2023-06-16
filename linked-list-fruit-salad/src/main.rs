@@ -1,10 +1,18 @@
-/* 
-This code starts with an initial VecDeque, 
-converts it to a Vec for shuffling, and then converts it back to a VecDeque. 
-After that, it pushes "Pomegranate" to the front of the deque, and "Fig" and "Cherry" 
-to the back of the deque. Finally, it prints out the final fruit salad.
+/*
+As with the VecDeque example, this code starts by creating a LinkedList of fruits,
+converts it to a Vec for shuffling, and then converts it back to a LinkedList.
+After the shuffling, it adds "Pomegranate", "Fig", and "Cherry" to the end of the list.
+Finally, it prints out the final fruit salad.
 
-A VecDeque is a double-ended queue, which means that you can push and pop from both ends of the queue.
+This example shows how to use a LinkedList, but remember that LinkedList
+has a higher memory overhead and worse cache locality than Vec or VecDeque,
+so it's typically not the best choice unless you have a specific need for the properties of a linked list.
+In Rust, it's usually better to use a Vec or VecDeque.
+
+A LinkedList is a doubly-linked list, which means that each element in the list
+has a pointer to the next element and the previous element.
+A great example of when to use a LinkedList is when you need to insert or remove elements
+from the middle of the list.
 */
 
 use rand::seq::SliceRandom; // rand is a random number generation library in Rust
