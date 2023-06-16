@@ -14,6 +14,6 @@ jobs:
           profile: minimal
           components: clippy, rustfmt
           override: true
-      - name: Run clippy
-        run: make build-release
+      - name: Run release (if available)
+        run: #make build-release
   
