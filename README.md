@@ -12,14 +12,19 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 
 * Any suggestions or feedback?  Feel free file a ticket.
 
-
 ## Labs (in sequential Order)
+
+### Sequences
 
 1. Print Rust data structures:  `cd print-data-structs && cargo run`
 2. Vector Fruit Salad:  `cd vector-fruit-salad && cargo run`
 3. VecDeque Fruit Salad: `cd vecdeque-fruit-salad && cargo run`
 4. Linkedin List Fruit Salad: `cd linked-list-fruit-salad && cargo run`
 5. Fruit Salad CLI: `cd cli-salad && cargo run -- --number 3`
+
+### Maps
+
+6.  
 
 ### Technical Notes
 
