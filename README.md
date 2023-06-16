@@ -8,6 +8,18 @@ Projects for Rust Data Engineering Coursera course.
 Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](https://nogibjj.github.io/rust-data-engineering/)
 
 
+## Feedback
+
+* Any suggestions or feedback?  Feel free file a ticket.
+
+
+## Labs (in sequential Order)
+
+1. Print Rust data structures:  `cd print-data-structs && cargo run`
+
+
+### Technical Notes
+
 ## Makefile
 
 Each subdirectory project uses this style to make it easy to test and run
@@ -27,11 +39,6 @@ run:
 
 all: format lint test run
 ```
-
-
-## Labs (in sequential Order)
-
-1. Print Rust data structures:  `cd print-data-structs && cargo run`
 
 
 ## References
