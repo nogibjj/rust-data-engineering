@@ -16,6 +16,7 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 ## Labs (in sequential Order)
 
 1. Print Rust data structures:  `cd print-data-structs && cargo run`
+2. Vector example:  `cd vector-fruit-salad && cargo run`
 
 
 ### Technical Notes
