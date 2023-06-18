@@ -3,7 +3,16 @@ use rand::thread_rng;
 use std::collections::BTreeSet;
 
 fn main() {
-    let fruits = vec!["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew"];
+    let fruits = vec![
+        "apple",
+        "banana",
+        "cherry",
+        "date",
+        "elderberry",
+        "fig",
+        "grape",
+        "honeydew",
+    ];
     let amounts = [1, 3, 5, 7, 9];
 
     let mut rng = thread_rng();

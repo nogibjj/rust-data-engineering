@@ -29,8 +29,12 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 
 ### Sets
 
-8. HashSet:  `cd hashset-fruit && cargo run`
-9. BTreeSet: `cd btreeset-fruit && cargo run`
+8. HashSet fruits:  `cd hashset-fruit && cargo run`
+9. BTreeSet fruits: `cd btreeset-fruit && cargo run`
+
+### Misc
+
+10. Binary Heap Fruit Salad with Fig Priority: `cd binaryheap-fruit && cargo run`
 
 ### Technical Notes
 
