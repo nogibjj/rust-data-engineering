@@ -24,12 +24,13 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 
 ### Maps
 
-6. Hashmap: `cd hashmap-language && cargo run`
-7. BTreeMap: `cd BTreeMap-language && cargo run`
+6. Hashmap language comparison: `cd hashmap-language && cargo run`
+7. BTreeMap language comparison: `cd BTreeMap-language && cargo run`
 
 ### Sets
 
-8.  HashSet:  `cd hashset-fruit && cargo run`
+8. HashSet:  `cd hashset-fruit && cargo run`
+9. BTreeSet: `cd btreeset-fruit && cargo run`
 
 ### Technical Notes
 
