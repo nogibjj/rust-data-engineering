@@ -14,27 +14,38 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 
 ## Labs (in sequential Order)
 
-### Sequences
+### Week 1- Rust Collections
 
-1. Print Rust data structures:  `cd print-data-structs && cargo run`
-2. Vector Fruit Salad:  `cd vector-fruit-salad && cargo run`
-3. VecDeque Fruit Salad: `cd vecdeque-fruit-salad && cargo run`
-4. Linkedin List Fruit Salad: `cd linked-list-fruit-salad && cargo run`
-5. Fruit Salad CLI: `cd cli-salad && cargo run -- --number 3`
+#### Sequences
 
-### Maps
+* Print Rust data structures:  `cd print-data-structs && cargo run`
+* Vector Fruit Salad:  `cd vector-fruit-salad && cargo run`
+* VecDeque Fruit Salad: `cd vecdeque-fruit-salad && cargo run`
+* Linkedin List Fruit Salad: `cd linked-list-fruit-salad && cargo run`
+* Fruit Salad CLI: `cd cli-salad && cargo run -- --number 3`
 
-6. Hashmap language comparison: `cd hashmap-language && cargo run`
-7. BTreeMap language comparison: `cd BTreeMap-language && cargo run`
+#### Maps
 
-### Sets
+* Hashmap language comparison: `cd hashmap-language && cargo run`
+* BTreeMap language comparison: `cd BTreeMap-language && cargo run`
 
-8. HashSet fruits:  `cd hashset-fruit && cargo run`
-9. BTreeSet fruits: `cd btreeset-fruit && cargo run`
+#### Sets
 
-### Misc
+* HashSet fruits:  `cd hashset-fruit && cargo run`
+* BTreeSet fruits: `cd btreeset-fruit && cargo run`
 
-10. Binary Heap Fruit Salad with Fig Priority: `cd binaryheap-fruit && cargo run`
+#### Misc
+
+* Binary Heap Fruit Salad with Fig Priority: `cd binaryheap-fruit && cargo run`
+
+### Week 2-Rust Safety and Security 
+
+* mutable fruit salad:  `mutable-fruit-salad`
+
+### Week 3-Rust Data Engineering Libraries and Tools
+
+### Week 4-Rust
+
 
 ### Technical Notes
 
