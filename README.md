@@ -40,7 +40,8 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 
 ### Week 2-Rust Safety and Security 
 
-* mutable fruit salad:  `mutable-fruit-salad`
+* mutable fruit salad:  `cd mutable-fruit-salad && cargo run`
+* cli customize fruit salad: `cd cli-customize-fruit-salad && cargo run -- fruits.csv` or `cargo run -- --fruits "apple, pear"`
 
 ### Week 3-Rust Data Engineering Libraries and Tools
 
