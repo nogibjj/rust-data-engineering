@@ -84,7 +84,6 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 - **File System Analyzer**: An application that provides insights about disk usage, like the `du` command in Unix.
 - **Real-Time Twitter Analysis**: A real-time tweet analysis tool that uses Twitter Stream API to fetch tweets and analyze them (for example, performing sentiment analysis).
 - **Stock Market Analyzer**: An application that fetches stock market data from a free API and performs various analyses.
-- **Cryptocurrency Tracker**: An application that uses a cryptocurrency API to track and analyze the price of different cryptocurrencies.
 - **Text Analytics**: A text analytics library that provides functionalities like sentiment analysis, named entity recognition, etc.
 - **Delta Lake Interaction**: A project demonstrating interaction with Delta Lake for processing large amounts of data.
 - **AWS SDK usage**: A project demonstrating the use of AWS SDK in Rust for tasks such as accessing S3 buckets, performing operations on DynamoDB, etc.
