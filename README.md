@@ -38,7 +38,7 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 
 * Binary Heap Fruit Salad with Fig Priority: `cd binaryheap-fruit && cargo run`
 
-### Week 2-Rust Safety and Security 
+### Week 2-Safety and Security with Rust
 
 * mutable fruit salad:  `cd mutable-fruit-salad && cargo run`
 * cli customize fruit salad: `cd cli-customize-fruit-salad && cargo run -- fruits.csv` or `cargo run -- --fruits "apple, pear"`
