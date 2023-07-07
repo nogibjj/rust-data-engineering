@@ -97,6 +97,40 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 ### Week 4-Rust
 
 
+#### Suggested Exercises
+
+- **Rust-based ETL Pipeline**: Develop an ETL (Extract, Transform, Load) pipeline using various Rust libraries to process and transfer data between different storage systems.
+
+- **Web Scraper with Rust**: Build a concurrent web scraper that can efficiently scrape large amounts of data from web pages.
+
+- **Rust REST API Server**: Design a REST API server in Rust that serves data from a database. Use the Diesel ORM for database interactions.
+
+- **Real-time Data Streaming with Rust**: Implement a real-time data streaming application, processing streams of data in a concurrent manner.
+
+- **Rust-based Data Lake**: Use the Delta Lake Rust API to create a data lake solution. Implement CRUD operations on the data lake.
+
+- **Big Data Processing with Rust and Apache Arrow**: Use Apache Arrow to perform efficient in-memory big data processing.
+
+- **Rust and AWS SDK**: Use the AWS SDK for Rust to interact with AWS services such as S3 and DynamoDB.
+
+- **gRPC Service in Rust**: Implement a gRPC service in Rust that performs CRUD operations on a database.
+
+- **Log Analyzer**: Create a log analyzer that can process large log files concurrently and provide useful insights from logs.
+
+- **Distributed Systems with Rust**: Create a simple distributed system using Rust's concurrency features. This could be a simple key-value store or a message-passing system.
+
+- **Rust and GraphQL**: Implement a GraphQL API in Rust using libraries like Juniper.
+
+- **Data Serialization with Rust**: Use libraries like serde to perform data serialization and deserialization in various formats (JSON, XML, etc.)
+
+- **Rust and Kafka**: Use Rust to interact with Kafka, implementing a producer and consumer system.
+
+- **Data Validation Service**: Create a service that validates input data based on predefined rules. This could be a web service or a library that other services can use.
+
+- **Rust and Machine Learning**: Use Rust machine learning libraries to implement a simple prediction model. You could use the data processed in the ETL pipeline or the data lake for this.
+
+
+
 ### Technical Notes
 
 ## Makefile
