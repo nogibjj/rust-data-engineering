@@ -14,7 +14,7 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 
 ## Labs (in sequential Order)
 
-### Week 1- Rust Collections
+### Week 1- Rust Data Structures: Collections
 
 #### Sequences
 
