@@ -26,7 +26,8 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 
 #### Maps
 
-* Hashmap language comparison: `cd hashmap-language && cargo run`
+* HashMap frequency counter: `cd hashmap-count && cargo run`
+* HashMap language comparison: `cd hashmap-language && cargo run`
 * BTreeMap language comparison: `cd BTreeMap-language && cargo run`
 
 #### Sets
