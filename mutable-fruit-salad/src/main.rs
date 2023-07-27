@@ -3,7 +3,8 @@ fn main() {
     let fruit_salad = vec!["apple", "banana", "cherry", "dates", "elderberries"];
     println!("Original fruit salad: {:?}", fruit_salad);
 
-    // Uncommenting the following line will cause a compilation error because fruit_salad is immutable.
+    // Uncommenting the following line will cause a compilation error because fruit_salad 
+    // is immutable.
     // fruit_salad.push("figs");
 
     // To mutate the vector, we need to declare it as mutable:

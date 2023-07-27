@@ -42,7 +42,7 @@ fn process_page(page: &Page<Client>) -> ProcessedPage {
     let title = page.get_title().unwrap();
     let content = page.get_content().unwrap();
     ProcessedPage {
-        title: title.to_string(),
+        title,
         data: content,
     }
 }
@@ -56,10 +56,12 @@ fn main() {
         .iter()
         .map(|&p| wikipedia.page_from_title(p.to_string()))
         .collect();
+
     let processed_pages: Vec<_> = pages.iter().map(|p| process_page(p)).collect();
     for page in processed_pages {
         //time how long it takes to process each page
         let start_page = std::time::Instant::now();
+
         println!("Title: {}", page.title);
         //grab first sentence of the page
         let first_sentence = page.data.split('.').next().unwrap();
