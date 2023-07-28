@@ -2,7 +2,7 @@
 Attempts to statistically decode a Caesar cipher.
 Here's an example of how to use it:
 
-This is a shift 10 message: "Off to the bunker. Every person for themselves"
+This is a shift 16 message: "Off to the bunker. Every person for themselves"
 "Ypp dy dro lexuob. Ofobi zobcyx pyb drowcovfoc"
 
 cargo run -- --message "Ypp dy dro lexuob. Ofobi zobcyx pyb drowcovfoc" --guess
