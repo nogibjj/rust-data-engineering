@@ -1,22 +1,17 @@
 /*
-* The Page struct required a type implementing HttpClient trait.
-* Using just a String caused a compiler error.
-*
-* The fix was to use the Client struct from wikipedia crate,
-* which implements HttpClient.
-*
-* Constructing Page using Client instead of String satisfied the
-* HttpClient bound. This fixed the compilation error.
-*
-* The key points:
-* - Page requires a type implementing HttpClient
-* - Pass in Client instead of String
-* - Client implements HttpClient, so compiles correctly
-*
-* By using the right type for Page construction, it builds
-* and runs properly.
+
+* Uses wikipedia crate to fetch pages
+
+* Processes page content
+
+* Collects timing metrics
+
+* Concurrent page processing
+
+* Shows crate usage and concurrency in Rust
 */
 
+use rayon::prelude::*;
 use wikipedia::http::default::Client;
 use wikipedia::Page;
 use wikipedia::Wikipedia;
@@ -53,16 +48,16 @@ fn main() {
     let start = std::time::Instant::now();
     let wikipedia = Wikipedia::<Client>::default();
     let pages: Vec<_> = PAGES
-        .iter()
+        .par_iter() //parallel iterator
         .map(|&p| wikipedia.page_from_title(p.to_string()))
         .collect();
 
-    let processed_pages: Vec<_> = pages.iter().map(|p| process_page(p)).collect();
+    let processed_pages: Vec<ProcessedPage> = pages.par_iter().map(process_page).collect();
     for page in processed_pages {
         //time how long it takes to process each page
         let start_page = std::time::Instant::now();
 
-        println!("Title: {}", page.title);
+        println!("Title: {}", page.title.as_str());
         //grab first sentence of the page
         let first_sentence = page.data.split('.').next().unwrap();
         println!("First sentence: {}", first_sentence);
