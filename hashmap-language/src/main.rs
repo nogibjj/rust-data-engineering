@@ -16,7 +16,7 @@ fn init_languages() -> HashMap<String, i32> {
     languages.insert("PowerShell".to_string(), 2006);
     languages.insert("Go".to_string(), 2007);
     languages.insert("Rust".to_string(), 2010);
-    
+
     languages
 }
 
@@ -25,25 +25,25 @@ fn calculate_weights(years_active: &mut HashMap<String, i32>) -> HashMap<String,
     for year in years_active.values_mut() {
         *year = 2024 - *year;
     }
-    
+
     let min_year = *years_active.values().min().unwrap_or(&0);
     let max_year = *years_active.values().max().unwrap_or(&0);
-    
+
     let mut weights = HashMap::new();
-    
+
     for (language, &year) in years_active.iter() {
         let normalized_year = (year - min_year) as f64 / (max_year - min_year) as f64;
-        let weight = (normalized_year * 99.0) as i32 + 1;  // weight between 1 and 100
+        let weight = (normalized_year * 99.0) as i32 + 1; // weight between 1 and 100
         weights.insert(language.to_string(), weight);
     }
-    
+
     weights
 }
 
 fn main() {
     let mut languages = init_languages();
     let weights = calculate_weights(&mut languages);
-    
+
     println!("Language weighing from 1-100 by age (1 is newest and 100 is oldest):");
     for (language, weight) in &weights {
         println!("{}: {}", language, weight);

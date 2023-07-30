@@ -45,6 +45,28 @@ Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](ht
 * cli customize fruit salad: `cd cli-customize-fruit-salad && cargo run -- fruits.csv` or `cargo run -- --fruits "apple, pear"`
 * data race example:  `cd data-race && cargo run` (will not compile because of data race)
 
+#### Ciphers vs Encryption
+
+The main differences between ciphers and encryption algorithms:
+
+* Ciphers operate directly on the plaintext, substituting or transposing the letters mathematically. Encryption algorithms operate on the binary data representations of the plaintext.
+
+* Ciphers typically have a small key space based on simple operations like letter mappings or transposition rules. Encryption algorithms use complex math and very large key sizes.
+
+* Ciphers provide security through obscuring letter frequencies but are still vulnerable to cryptanalysis. Encryption algorithms rely on computational hardness assumptions.
+
+* Ciphers only handle textual data well. Encryption algorithms can handle all binary data like images, video, etc.
+
+In summary:
+
+* Ciphers like homophonic substitution operate directly on textual plaintext with simple math operations and fixed small key spaces.
+
+* Encryption algorithms like AES operate on any binary data with complex math and very large key sizes.
+
+* Ciphers are considered obsolete for serious encryption use today due to vulnerabilities.
+
+* Modern encryption provides provable security based on mathematical problems assumed to be computationally infeasible to solve.
+
 
 #### Suggested Exercises
 
