@@ -34,7 +34,8 @@
 			"extensions": [
 				"rust-lang.rust-analyzer",
 				"GitHub.copilot-nightly",
-				"GitHub.copilot-labs"
+				"GitHub.copilot-labs",
+				"GitHub.copilot-chat"
 			]
 		}
 	},
