@@ -7,6 +7,9 @@
 Projects for Rust Data Engineering Coursera course.
 Website for projects here: [https://nogibjj.github.io/rust-data-engineering/](https://nogibjj.github.io/rust-data-engineering/)
 
+## Environments
+
+* Works with both AWS CodeCatalyst and GitHub Codespaces
 
 ## Feedback
 
