@@ -155,6 +155,53 @@ In summary:
 
 - **Rust and Machine Learning**: Use Rust machine learning libraries to implement a simple prediction model. You could use the data processed in the ETL pipeline or the data lake for this.
 
+### Lab:  Modifying a Rust Command-Line Tool
+
+In this lab you will gain experience extending an existing Rust project by forking and modifying a simple command-line tool.
+
+**Steps**
+
+1. Fork the repository at **https://github.com/nogibjj/rust-data-engineering**
+
+2. Clone your forked repository 
+
+3. Navigate to one of the command-line tool projects
+
+4. Make a small modification to the tool such as:
+
+   - Adding a new command line argument
+    
+   - Supporting additional input file formats
+    
+   - Adding more processing logic
+    
+   - Changing output formatting
+
+5. Run `cargo build` to compile your changes  
+
+6. Run `cargo run` to test your modified tool
+
+7. Commit your changes and push to your forked repository
+
+
+**Deliverable**
+
+Submit a link to your forked repository showing the code changes.
+
+
+**Goals**
+
+This hands-on lab provides experience with:
+
+- Forking and cloning a Rust project
+
+- Modifying existing Rust code 
+
+- Running `cargo build` and `cargo run`
+
+- Version control with git
+
+- Making a pull request (optional)
 
 
 ### Technical Notes
