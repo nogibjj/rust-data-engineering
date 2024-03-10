@@ -16,6 +16,7 @@ use fruit_salad_maker::create_fruit_salad;
     author = "Your Name <your.email@example.com>",
     about = "Make a Fruit Salad"
 )]
+#[group(required = true, multiple = false)]
 struct Opts {
     /// Fruits input as a string of comma separated values
     #[clap(short, long)]
